@@ -3,7 +3,7 @@ const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
       fetchInvites: true,
-  token: "MTAyMjkzNTk2NjYwNTkwNTk0MA.GduX5S.RLIIWCJ5nL4U_wCt_CdK98tymCxcvOfz96CGgM", //Discord Bot Token
+  token: "(your bot token)", //Discord Bot Token
   prefix: "m!", //Customizable
   intents: ["MessageContent", "Guilds", "GuildMessages"],
   events: ["onMessage", "onInteractionCreate"],
